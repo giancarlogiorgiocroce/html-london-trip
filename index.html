@@ -6,71 +6,82 @@
 <body>
     <header> <!-- Titolo e immagini iniziali -->
         <h1><em>Il mio Viaggio a Londra</em></h1>
-        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="">
-        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="">
-        <img src="img/prova-multipli-livelli/pexels-bill-emrich-230794-2.jpg" alt="">
+        <div>
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="Ruota panoramica">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="Ponte">
+            <img src="img/prova-multipli-livelli/pexels-bill-emrich-230794-2.jpg" alt="Big Ben">
+        </div>
         <hr>
     </header>
 
     <main>
-        <div> <!-- Tabella spese -->
+        <section> <!-- Tabella spese -->
             <h2>Le mie spese</h2>
             <table>
-                <tr>
-                  <th>Numero</th>
-                  <th>Descrizione</th>
-                  <th>Costo</th>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Biglietto aereo</td>
-                  <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto aereo</td>
-                    <td>120&euro;</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Biglietto aereo</td>
-                    <td>120&euro;</td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">Totale</td>
-                    <td>360&euro;</td>
-                  </tr>
-              </table>
-              <hr>
-        </div>
-        <div> <!-- Lista delle cose da fare -->
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                    <tr>
+                </thead>
+                <tbody>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td>360&euro;</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+        <section> <!-- Lista delle cose da fare -->
             <h3>Cose da fare</h3>
             <ul>
-                <li>Visitare la Tower of London &#x2717;</li>
-                <li>Visitare Greenwich &#x2717;</li>
-                <li>Ascoltare un artista di strada a Covent Garden &#x2717;</li>
-                <li>Mangiare il tipico Fish and Chips inglese &#x2717;</li>
+                <li>Visitare la Tower of London &cross;</li>
+                <li>Visitare Greenwich &cross;</li>
+                <li>Ascoltare un artista di strada a Covent Garden &cross;</li>
+                <li>Mangiare il tipico Fish and Chips inglese &cross;</li>
                 <li>Perdersi tre ore nel negozio della Twinings a scegliere thè &check;</li>
             </ul>
             <hr>
-        </div>
-        <div> <!-- Liste di informazioni utili -->
+        </section>
+        <section> <!-- Liste di informazioni utili -->
             <h3>Informazioni Utili&colon;</h3>
             <ol>
-                <li>Numeri di emergenza
+                <li>
+                    <span>Numeri di emergenza</span>
                     <ul>
                         <li><strong>999</strong> - Emergenza</li>
                         <li><strong>101</strong> - Polizia</li>
                         <li><strong>102</strong> - Assistenza sanitaria</li>
                     </ul>
                 </li>
-                <li>Hotel
+                <li>
+                    <span>Hotel</span>
                     <ul>
                         <li><strong>Nome Hotel</strong> <em>La regina ha il covid, meglio andare dal Primo ministro!</em></li>
                         <li><strong>Indirizzo Hotel</strong> 10 Downing Street, London, UK.</li>
                     </ul>
                 </li>
-                <li>Aereo
+                <li>
+                    <span>Aereo</span>
                     <ul>
                         <li><strong>Volo di andata:</strong> Y1234X, ore 7.55, Bologna</li>
                         <li><strong>Volo di ritorno&colon;</strong> Y4321X, ore 21.45, Londra.</li>
@@ -78,16 +89,16 @@
                 </li>
             </ol>
             <hr>
-        </div>
+        </section>
     </main>
 
     <footer> <!-- Link e immagini finali -->
         <h4>Le foto</h4>
         <a href="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg">
-            <img src="img/london-uno.jpg" alt="">
+            <img src="img/london-uno.jpg" alt="Tamigi">
         </a>
         <a href="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg">
-            <img src="img/london-due.jpg" alt="">
+            <img src="img/london-due.jpg" alt="Mercato">
         </a>
     </footer>
 </body>
